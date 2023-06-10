@@ -76,6 +76,7 @@ async function connectToWhatsApp () {
 }
 // run in main file
 connectToWhatsApp()
+//123
 ``` 
 
 If the connection is successful, you will see a QR code printed on your terminal screen, scan it with WhatsApp on your phone and you'll be logged in!
