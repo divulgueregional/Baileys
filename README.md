@@ -4,7 +4,7 @@ O Baileys não requer que o Selenium ou qualquer outro navegador seja interface 
 
 Baileys oferece suporte à interação com as versões para vários dispositivos e web do WhatsApp.
 
-Thank you to [@pokearaujo](https://github.com/pokearaujo/multidevice) for writing his observations on the workings of WhatsApp Multi-Device. Also, thank you to [@Sigalor](https://github.com/sigalor/whatsapp-web-reveng) for writing his observations on the workings of WhatsApp Web and thanks to [@Rhymen](https://github.com/Rhymen/go-whatsapp/) for the **go** implementation.
+Obrigada por [@pokearaujo](https://github.com/pokearaujo/multidevice) por escrever suas observações sobre o funcionamento do WhatsApp Multi-Device. Além disso, obrigado a [@Sigalor](https://github.com/sigalor/whatsapp-web-reveng) por escrever suas observações sobre o funcionamento do WhatsApp Web e graças a [@Rhymen](https://github.com/Rhymen/go-whatsapp/) para a implementação **go**.
 
 Baileys is type-safe, extensible and simple to use. If you require more functionality than provided, it's super easy to write an extension. More on this [here](#WritingCustomFunctionality).
 
