@@ -6,7 +6,7 @@ Baileys oferece suporte à interação com as versões para vários dispositivos
 
 Obrigada por [@pokearaujo](https://github.com/pokearaujo/multidevice) por escrever suas observações sobre o funcionamento do WhatsApp Multi-Device. Além disso, obrigado a [@Sigalor](https://github.com/sigalor/whatsapp-web-reveng) por escrever suas observações sobre o funcionamento do WhatsApp Web e graças a [@Rhymen](https://github.com/Rhymen/go-whatsapp/) para a implementação **go**.
 
-Baileys is type-safe, extensible and simple to use. If you require more functionality than provided, it's super easy to write an extension. More on this [here](#WritingCustomFunctionality).
+Baileys é seguro para tipos, extensível e simples de usar. Se você precisar de mais funcionalidades do que as fornecidas, é muito fácil escrever uma extensão. Mais sobre isso [here](#WritingCustomFunctionality).
 
 If you're interested in building a WhatsApp bot, you may wanna check out [WhatsAppInfoBot](https://github.com/adiwajshing/WhatsappInfoBot) and an actual bot built with it, [Messcat](https://github.com/ashokatechmin/Messcat).
 
@@ -856,9 +856,9 @@ await sock.sendMessage(jid, { disappearingMessagesInChat: false });
   ```
 - To get a business profile, such as description or category
   `ts
-    const profile = await sock.getBusinessProfile("xyz@s.whatsapp.net")
-    console.log("business description: " + profile.description + ", category: " + profile.category)
-    `
+  const profile = await sock.getBusinessProfile("xyz@s.whatsapp.net")
+  console.log("business description: " + profile.description + ", category: " + profile.category)
+  `
   Of course, replace `xyz` with an actual ID.
 
 ## Groups
